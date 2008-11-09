@@ -16,6 +16,10 @@ The icons remain visible when the menu is in its collapsed state. In addition, s
 
 The plugin was quickly created and tested for WordPress 2.7-beta1. Some modifications might be required for the official 2.7 release.
 
+== Screenshots ==
+
+1. Before and after.
+
 == Installation ==
 
 1. Download and unzip the mp-hide-admin-icons.zip file
