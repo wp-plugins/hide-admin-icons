@@ -3,7 +3,7 @@ Contributors: mendezki
 Tags: admin, remove, menu, icon
 Requires at least: 2.7
 Tested up to: 2.7
-Stable tag: 1.1
+Stable tag: trunk
 
 Hides the icons in the expanded WordPress 2.7 admin menu.
 
