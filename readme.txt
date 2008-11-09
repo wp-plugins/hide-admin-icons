@@ -12,9 +12,10 @@ Hides the icons in the expanded WordPress 2.7 admin menu.
 The wonderful WordPress 2.7 beta 1 admin interface sports nice icons in its navigation menu. For those that prefer a simpler, text-only interface the Hide Admin Icons plugin hides these icons when the menu is expanded.
 The icons remain visible when the menu is in its collapsed state. In addition, some padding is added to sub-items.
 
-*note*
+*updated:
 
-The plugin was quickly created and tested for WordPress 2.7-beta1. Some modifications might be required for the official 2.7 release.
+1.1 Fix for code error, tried to retrieve the .css file from incorrect directory. Thanks Lecactus ;)
+
 
 == Screenshots ==
 

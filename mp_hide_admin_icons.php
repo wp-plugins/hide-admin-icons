@@ -25,7 +25,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 function mp_remove_icons() {
     $url = get_settings('siteurl');
-    $url = $url . '/wp-content/plugins/mp-hide-admin-icons/mp_hide_admin_icons.css';
+    $url = $url . '/wp-content/plugins/hide-admin-icons/mp_hide_admin_icons.css';
     echo '<link rel="stylesheet" type="text/css" href="' . $url . '" />';
 }
 
