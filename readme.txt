@@ -23,6 +23,6 @@ The icons remain visible when the menu is in its collapsed state. In addition, s
 
 == Installation ==
 
-1. Download and unzip the mp-hide-admin-icons.zip file
-2. Copy the mp-hide-admin-icons folder to your Wordpress plugin directory
+1. Download and unzip the hide-admin-icons.zip file
+2. Copy the hide-admin-icons folder to your Wordpress plugin directory
 3. Activate the plugin via the 'Plugins' menu in WordPress
