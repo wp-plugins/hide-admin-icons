@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Hide Admin Icons
-Plugin URI: http://multipop.org/hide-admin-icons
+Plugin URI: http://wordpress.org/extend/plugins/hide-admin-icons
 Description: Removes the icons from the Admin menu (when expanded).
 Version: 1.2
 Author: Barry Ceelen
