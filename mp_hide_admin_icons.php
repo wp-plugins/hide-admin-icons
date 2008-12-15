@@ -3,7 +3,7 @@
 Plugin Name: Hide Admin Icons
 Plugin URI: http://wordpress.org/extend/plugins/hide-admin-icons
 Description: Removes the icons from the admin page title and menu (when expanded).
-Version: 1.3
+Version: 1.3.1
 Author: Barry Ceelen
 Author URI: http://multipop.org
 
@@ -24,11 +24,11 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
 function mp_remove_icons() {
-    $url = get_settings('siteurl');
-    $url = $url . '/wp-content/plugins/hide-admin-icons/mp_hide_admin_icons.css';
-    echo '<link rel="stylesheet" type="text/css" href="' . $url . '" />';
+	$url = plugins_url() . '/hide-admin-icons/mp_hide_admin_icons.css';
+	wp_enqueue_style( 'mp_hide_admin_icons_style', $url, '', '', 'all' );
+	wp_print_styles( 'mp_hide_admin_icons_style' );
 }
 
 add_action('admin_head', 'mp_remove_icons');
-	
+
 ?>
