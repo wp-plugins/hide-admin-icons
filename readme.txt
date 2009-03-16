@@ -1,6 +1,6 @@
 === Hide Admin Icons ===
 Contributors: mendezki
-Tags: admin, remove, menu, header, icon
+Tags: admin, remove, hide, menu, header, icon, icons
 Requires at least: 2.7
 Tested up to: 2.7.1
 Stable tag: trunk
@@ -9,14 +9,9 @@ Hides the icons in the expanded WordPress 2.7 admin menu.
 
 == Description ==
 
-The wonderful WordPress 2.7 admin interface sports nice icons in its navigation menu and page titles. Quite possibly WordPress 2.7.1 will have an option to turn these off, in line with, I suppose, the functionality to switch between the two icon sets selected during [Project Icon](http://wordpress.org/development/2008/11/the-results-of-project-icon/ "Project Icon").
+Hide Admin Icons hides the navigation menu icons and admin page title icons. The menu icons remain visible when the menu is in its collapsed state.
 
-In the meantime, Hide Admin Icons hides the admin page title icons & navigation menu icons.
-Note: The menu icons remain visible when the menu is in its collapsed state.
-
-In addition, some padding is added to navigation menu sub-items. To keep the arrow that highlights the current item centered appropriately after the padding is added, a custom image is loaded. This might lead to problems with right to left languages as I haven't had the chance to test and/or implement this.
-
-If you'd prefer to keep the big icons next to the page titles just delete a few lines from the mp_hide_admin_icons.css file, the code to be removed has been highlighted.
+If you'd prefer to keep the big icons next to the page titles just delete a few lines from the `mp_hide_admin_icons.css` file, the code to be removed has been highlighted.
 
 **A few menu and icon related tips:**
 
