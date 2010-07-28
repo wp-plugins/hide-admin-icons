@@ -5,7 +5,7 @@ Requires at least: 2.7
 Tested up to: 3.0
 Stable tag: trunk
 
-Hides the icons in the expanded WordPress 2.7 admin menu.
+Hides the icons in the expanded WordPress admin menu and admin page titles.
 
 == Description ==
 
