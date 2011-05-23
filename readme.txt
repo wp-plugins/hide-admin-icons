@@ -2,7 +2,7 @@
 Contributors: mendezki
 Tags: admin, remove, hide, menu, header, icon, icons
 Requires at least: 2.7
-Tested up to: 3.1
+Tested up to: 3.2-beta1-17969
 Stable tag: trunk
 
 Hides the icons in the expanded WordPress admin menu and admin page titles.
