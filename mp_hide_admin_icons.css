@@ -1,0 +1,33 @@
+/* Hides the menu icons.. */
+
+#adminmenu .wp-menu-image {
+display:none;
+}
+
+.folded .wp-menu-image {
+display:inline !important;
+}
+
+/* ..adds some padding */
+#adminmenu .wp-submenu a {
+padding-top:6px !important;
+padding-bottom:4px !important;
+}
+
+
+/* replaces the background arrow */
+
+#wpbody #adminmenu .wp-submenu li.current a {
+background:url(menu-dark-new.gif) left center no-repeat !important;
+}
+
+
+/* Delete these if you want to keep the title icons */
+
+.icon32 {
+display:none;
+}
+
+.wrap h2 {
+margin-left:5px;
+}
