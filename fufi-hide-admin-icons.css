@@ -1,0 +1,19 @@
+/* Hide the menu icons */
+
+#adminmenu .wp-menu-image {
+	display: none;
+}
+
+.folded #adminmenu .wp-menu-image {
+	display: inline;
+}
+
+/* Hide the page title icons */
+
+.icon32 {
+	display: none;
+}
+
+.wrap h2 {
+	margin-left: 5px;
+}
