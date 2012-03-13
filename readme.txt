@@ -17,7 +17,7 @@ Hide Admin Icons hides the navigation menu icons and admin page title icons. The
 
 == Installation ==
 
-1. 1. Download the plugin archive and expand it.
+1. Download the plugin archive and expand it.
 2. Put the 'hide-admin-icons' directory in your WordPress plugin directory.
 3. Go to the Plugins page in your WordPress Administration area and click 'Activate' for Hide Admin Icons.
 
