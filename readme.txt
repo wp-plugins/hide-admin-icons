@@ -1,5 +1,5 @@
 === Hide Admin Icons ===
-Contributors: mendezki
+Contributors: functionsfile
 Tags: admin, remove, hide, menu, header, icon, icons
 Requires at least: 2.7
 Tested up to: 3.3.1
@@ -10,10 +10,6 @@ Hides the icons in the admin navigation and admin page titles.
 == Description ==
 
 Hide Admin Icons hides the navigation menu icons and admin page title icons. The menu icons remain visible when the menu is in its collapsed state.
-
-== Screenshots ==
-
-1. Before and after.
 
 == Installation ==
 
