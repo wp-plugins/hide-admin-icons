@@ -8,6 +8,12 @@
 	display: inline;
 }
 
+@media only screen and (max-width:900px) {
+	#adminmenu .wp-menu-image {
+		display: inline;
+	}	
+}
+
 /* Hide the page title icons */
 
 .icon32 {
