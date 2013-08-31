@@ -19,6 +19,7 @@ Hide Admin Icons hides the navigation menu icons and admin page title icons. The
 
 == Changelog ==
 
+* 1.4 Adds support for the [MP6](http://wordpress.org/plugins/mp6/) plugin
 * 1.3.3 Fixed incorrectly hidden navigation menu icons on narrow screens.
 * 1.3.2 Removed unnecessary image file, updated css, renamed functions.
 * 1.3.1 Nothing fancy, just edited the way the Hide Admin Icons css file is included in the admin header, you shouldn't notice any change really.
