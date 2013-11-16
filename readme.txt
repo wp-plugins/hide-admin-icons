@@ -1,5 +1,5 @@
 === Hide Admin Icons ===
-Contributors: functionsfile
+Contributors: functionsfile, barryceelen
 Tags: admin, remove, hide, menu, header, icon, icons
 Requires at least: 2.7
 Tested up to: 3.6
@@ -19,6 +19,7 @@ Hide Admin Icons hides the navigation menu icons and admin page title icons. The
 
 == Changelog ==
 
+* 1.5 Adds experimental support for WordPress 3.8. Once 3.8 is released, support for older WordPress versions and the MP6 plugin will be dropped.
 * 1.4 Adds support for the [MP6](http://wordpress.org/plugins/mp6/) plugin
 * 1.3.3 Fixed incorrectly hidden navigation menu icons on narrow screens.
 * 1.3.2 Removed unnecessary image file, updated css, renamed functions.
