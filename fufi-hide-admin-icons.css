@@ -19,30 +19,25 @@
 }
 
 /**
- * Add left padding to menu labels if the MP6 plugin (http://wordpress.org/plugins/mp6/) is active
- * or if we're on the WordPress 3.8 branch
+ * Add left padding to menu labels if we're on the WordPress 3.6 or 3.7 branch
  */
-.mp6 #adminmenu div.wp-menu-name,
-.branch-3-8 #adminmenu div.wp-menu-name {
+.branch-3-6 #adminmenu div.wp-menu-name,
+.branch-3-7 #adminmenu div.wp-menu-name {
 	padding-left: 10px;
 }
 
 /**
  * Hide the page title icons
  */
-.icon32 {
+.branch-3-6 .icon32,
+.branch-3-7 .icon32 {
 	display: none;
 }
 
-.wrap h2 {
-	margin-left: 5px;
-}
-
 /**
- * Remove left margin from header if MP6 plugin is active
- * or if we're on the WordPress 3.8 branch
+ * Add left margin if we're on the WordPress 3.6 or 3.7 branch
  */
-.mp6 .wrap h2,
-.branch-3-8 .wrap h2 {
-	margin-left: 0;
+.branch-3-6 .wrap h2,
+.branch-3-7 .wrap h2 {
+	margin-left: 5px;
 }
