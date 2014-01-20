@@ -1,12 +1,12 @@
 /**
- * Hide the admin menu icons
+ * Hide the admin menu icons.
  */
 #adminmenu .wp-menu-image {
 	display: none;
 }
 
 /**
- * Show the admin menu icons when the menu is collapsed
+ * Show the admin menu icons when the menu is collapsed.
  */
 .folded #adminmenu .wp-menu-image {
 	display: inline;
@@ -19,10 +19,9 @@
 }
 
 /**
- * Add left padding to menu labels if we're on the WordPress 3.6 or 3.7 branch
+ * Add left padding to menu labels to account for the missing icons.
  */
-.branch-3-6 #adminmenu div.wp-menu-name,
-.branch-3-7 #adminmenu div.wp-menu-name {
+#adminmenu div.wp-menu-name {
 	padding-left: 10px;
 }
 
